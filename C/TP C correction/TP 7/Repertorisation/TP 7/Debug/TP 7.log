@@ -1,0 +1,28 @@
+﻿  rep.c
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\rep.c(285): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\rep.c(357): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\rep.c(449): warning C4018: '<' : incompatibilité signed/unsigned
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\rep.c(451): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+  outil.c
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(25): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(54): warning C4018: '<' : incompatibilité signed/unsigned
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(57): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(135): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(137): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(177): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(181): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(182): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(171): warning C4133: 'initialisation' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(229): warning C4047: 'fonction' : les niveaux d'indirection de 'int' et de 'char [128]' sont différents
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(229): warning C4024: 'toupper' : types différents pour le paramètre formel et réel 1
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(231): warning C4018: '<' : incompatibilité signed/unsigned
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(234): warning C4047: 'fonction' : les niveaux d'indirection de 'int' et de 'char [128]' sont différents
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(234): warning C4024: 'toupper' : types différents pour le paramètre formel et réel 1
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(239): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(204): warning C4101: 'ind_fin' : variable locale non référencée
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(299): warning C4018: '<' : incompatibilité signed/unsigned
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(308): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+d:\doc\algo\tp c\tp 7\repertorisation\tp 7\outil.c(385): warning C4133: '=' : types incompatibles - de 'LinkedList *' à 'LinkedList *'
+  Génération de code en cours...
+  TP 7.vcxproj -> D:\doc\algo\TP C\TP 7\Repertorisation\Debug\TP 7.exe
+  TP 7.vcxproj -> D:\doc\algo\TP C\TP 7\Repertorisation\Debug\TP 7.pdb (Full PDB)
