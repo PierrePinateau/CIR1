@@ -1,0 +1,23 @@
+body {
+  font-family: verdana;
+}
+h1 {
+   background-color: #ffc;
+   background-image:url(images/linux.png);
+   background-repeat: no-repeat;
+   padding: 0.9%;
+   padding-left: 5%;
+   background-position: 15px;
+
+  }
+
+p.exemple {
+  background-image:url(images/ex.png);
+  background-repeat: no-repeat;
+  background-position:  left center;
+  padding: 1%;
+  padding-left: 10%;
+  background-position: 35px;
+
+
+}

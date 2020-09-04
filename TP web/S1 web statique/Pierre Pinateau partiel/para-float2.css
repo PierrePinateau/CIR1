@@ -1,0 +1,17 @@
+p {
+  border: solid 1px grey;
+  background-color: silver;
+  text-align: center;
+  width: 15px;
+  float: left;
+}
+
+
+#bre {
+  clear: left;
+  margin-top: -16px; /* Autant que cela soit joli*/
+}
+
+#mo {
+  margin-top: -16px;
+}

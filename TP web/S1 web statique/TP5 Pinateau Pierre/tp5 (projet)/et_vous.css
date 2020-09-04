@@ -1,0 +1,157 @@
+#page {
+	padding-left:2%;	
+	display: grid;
+	grid-template-areas:"head head head head"
+						 "nav  main main aside"
+						 "nav  foot foot foot";
+	grid-template-rows: 1fr 2fr 1fr ;
+	grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+#bg_img{ /*image de fond*/
+  filter: blur(3px);
+  height: 128%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+  z-index:-1;
+}
+
+#page > header {
+  grid-area: head;
+  
+}
+
+#page > nav {
+  grid-area: nav;
+ 
+}
+
+#page > main {
+  grid-area: main;
+  padding-left:10%;
+}
+
+#page > footer {
+  grid-area: foot;
+  padding-left:5%;
+  
+}
+
+#page > p {
+  grid-area: foot-aside;
+  
+  
+}
+
+#page > aside{
+	grid-area: aside;
+	padding-left:2%;
+	
+	
+}
+
+.src{
+	text-align:right;
+}
+
+/*div menu */
+#menu-bar {
+  width: 98%;
+  padding: 6px 6px 4px 6px;
+  height: 34px;
+  line-height: 100%;
+  border-radius: 16px;
+  box-shadow: 4px 0px 7px #343A40;
+  background: #343A40;
+  border: inset 1px #343A40;
+  position:relative;
+  z-index:999;
+}
+
+#menu-bar li {
+  padding: 0px 6px 0px 6px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#menu-bar a {
+  color: #869da0;
+  text-decoration: none;
+  display: block;
+  padding: 6px 20px 6px 20px;
+  margin: 0;
+  margin-bottom: 6px;
+  border-radius: 10px;
+}
+
+#menu-bar li ul li a {
+  margin: 0;
+}
+#menu-bar .active a, #menu-bar li:hover > a {
+  background: #869da0;
+  color: #fff;
+}
+
+#menu-bar ul li:hover a, #menu-bar li:hover li a {
+  background: none;
+  border: none;
+  color: #666;
+}
+
+#menu-bar ul a:hover {
+  background: #869da0;
+  color: #fff;
+  border-radius: 0;
+}
+
+#menu-bar li:hover > ul {
+  display: block;
+}
+
+#menu-bar ul {
+  background: #869DA0;
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 185px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  border: solid 1px #B4B4B4;
+  border-radius: 10px;
+}
+
+#menu-bar ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu-bar ul a {
+  padding:10px 0px 10px 15px;
+  color:#424242;
+}
+
+#menu-bar ul li:first-child > a {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+#menu-bar ul li:last-child > a {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+#menu-bar:after {
+  display: block;
+  clear: both;
+  line-height: 0;
+  height: 0;
+}
+
+#menu-bar {
+  display: inline-block;
+}

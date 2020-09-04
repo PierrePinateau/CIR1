@@ -1,0 +1,82 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+h1 {
+  font−weight : bold ;
+  font−style : italic;
+  color: blue ;
+  background−color: yellow;
+}
+
+
+h2 {
+  border :3px dotted  red ;
+  font−family: "Trebuchet  MS";
+  text−align: center;
+  margin : 20px ;
+  padding : 10px;
+}
+
+#p1 {
+  background-color: red;
+  font-family: verdana;
+  font-size: 0.6em;
+}
+
+#p2::first-letter {
+  color: blue;
+  font-weight: bold;
+
+}
+#p2::first-line {
+    font-style: italic;
+}
+
+
+#p3 {
+  font-family :serif;
+  font-size: 18pt;
+  line-height: 30pt;
+}
+
+#hulk:link{
+    text-decoration: none;
+    color: blue;
+    font-size: 2em;
+}
+
+
+#hulk:hover {
+
+  font-size: 5em;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#link2:link {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
+
+
+
+#link2:hover {
+  font-weight: bold;
+  color: blue;
+  background: yellow;
+}
+#link2:active {
+  font-weight: bold;
+  background: #C0C0C0;
+}
+
+#p1::after {
+  content: "- ET PAF DU TEXTE EN PLUS"
+}
+
+div[class*="test"] {
+  background : silver;
+}

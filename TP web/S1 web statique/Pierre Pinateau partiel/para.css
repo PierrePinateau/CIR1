@@ -1,0 +1,10 @@
+p {
+  border: solid 1px grey;
+  background-color: silver;
+  text-align: center;
+  width: 15px;
+}
+
+#pl {
+  width: 150px
+}

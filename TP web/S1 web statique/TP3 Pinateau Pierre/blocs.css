@@ -1,0 +1,69 @@
+div {
+  text-align:center;
+}
+
+div #global {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+
+}
+
+div #entete {
+  width:600px;
+  height:50px;
+  background-color:#ADDFDE;
+  float: left;
+
+}
+
+div #menu {
+  width:100px;
+  height:400px;
+  float: left;
+  clear:left;
+
+
+}
+div #menu_haut {
+    width:100px;
+    height:200px;
+    background-color:#A5DF39;
+}
+
+div #menu_bas {
+  width:100px;
+  height:200px;
+  background-color:pink;
+}
+
+div #contenu {
+  width:500px;
+  height:400px;
+  background-color:yellow;
+  float: left;
+}
+
+div #bloc_haut {
+  width:150px;
+  height:150px;
+  background-color:silver;
+  float: right;
+
+  }
+
+  div #bloc_bas {
+    width:150px;
+    height:50px;
+    background-color:red;
+    float: right;
+    clear: both;
+
+  }
+
+  div #pied_page {
+    width:600px;
+    height:50px;
+    background-color:navy;
+    clear: both;
+  }

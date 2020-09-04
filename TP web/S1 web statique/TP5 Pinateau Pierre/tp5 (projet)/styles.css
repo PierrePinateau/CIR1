@@ -1,0 +1,421 @@
+@import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+
+html {background-color: #c7c7c7}
+
+p {
+      font-family: 'Black Ops One', cursive;
+      color: white;
+      font-size: 1.4em;
+}
+
+
+i{
+    color: black;
+}
+
+.fa-info-circle {
+    color: white;
+}
+
+.fa-map-o {
+    color: white;
+}
+
+.fa-globe {
+    color: white;
+}
+
+.fa-home {
+    color: white;
+}
+
+
+
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+
+/*div menu */
+#menu-bar {
+  width: 98%;
+  padding: 6px 6px 4px 6px;
+  height: 34px;
+  line-height: 100%;
+  border-radius: 16px;
+  box-shadow: 4px 0px 7px #343A40;
+  background: #343A40;
+  border: inset 1px #343A40;
+  position:relative;
+  z-index:999;
+}
+
+#menu-bar li {
+  padding: 0px 6px 0px 6px;
+  float: left;
+  position: relative;
+  list-style: none;
+}
+#menu-bar a {
+  color: #869da0;
+  text-decoration: none;
+  display: block;
+  padding: 6px 20px 6px 20px;
+  margin: 0;
+  margin-bottom: 6px;
+  border-radius: 10px;
+}
+
+#menu-bar li ul li a {
+  margin: 0;
+}
+#menu-bar .active a, #menu-bar li:hover > a {
+  background: #869da0;
+  color: #fff;
+}
+
+#menu-bar ul li:hover a, #menu-bar li:hover li a {
+  background: none;
+  border: none;
+  color: #666;
+}
+
+#menu-bar ul a:hover {
+  background: #869da0;
+  color: #fff;
+  border-radius: 0;
+}
+
+#menu-bar li:hover > ul {
+  display: block;
+}
+
+#menu-bar ul {
+  background: #869DA0;
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 185px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  border: solid 1px #B4B4B4;
+  border-radius: 10px;
+}
+
+#menu-bar ul li {
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu-bar ul a {
+  padding:10px 0px 10px 15px;
+  color:#424242;
+}
+
+#menu-bar ul li:first-child > a {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+#menu-bar ul li:last-child > a {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+#menu-bar:after {
+  display: block;
+  clear: both;
+  line-height: 0;
+  height: 0;
+}
+
+#menu-bar {
+  display: inline-block;
+}
+
+
+/* div top */
+.top {
+  position: relative;
+}
+
+.droite {
+  float: right;
+}
+
+
+#un{
+    position: relative;
+    float: left;
+    width: 17%;
+    padding-left: 3%;
+	  animation: slide-in 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 1s;
+    text-align: left;
+}
+
+#deux{
+  position: relative;
+  float: right;
+  width: 17%;
+  padding-right: 3%;
+  animation: slide-in 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 1s;
+}
+
+
+#trois{
+  position: relative;
+  left: 40%;
+  width: 27%;
+  animation: slide-in 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 2s;
+
+}
+
+#quatre{
+  position: relative;
+  float: left;
+  width: 17%;
+  padding-left: 3%;
+  animation: slide-in 2.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 3s;
+}
+
+#cinq{
+  position: relative;
+  float: right;
+  width: 17%;
+  padding-right: 3%;
+  animation: slide-in 4s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 3s;
+}
+
+/* div monde*/
+
+.monde {
+  clear: both;
+  height: 56em;
+  width: 100%;
+  background-image: url("images/mer.jpg");
+}
+#eu {
+    width: 45%;
+    padding-left: 2%;
+    padding-top: 1%;
+    float: left;
+    clear: both;
+}
+
+#eurasie {
+    width: 55%;
+    position: absolute;
+    padding-left: 25%;
+    float: left;
+    clear: both;
+
+}
+
+#eusud {
+    width: 40%;
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 19%;
+    float: left;
+    clear: both;
+
+
+}
+
+#afrique {
+  width: 35%;
+  position: absolute;
+  padding-left: 26%;
+  padding-top: 22%;
+  float: left;
+  clear: both;
+}
+
+
+
+#australie {
+    width: 35%;
+    position: relative;
+    padding-left: 58%;
+    padding-top: 8%;
+    float: left;
+
+}
+
+#text-monde {
+  color: #fff;
+  font-weight:bold;
+  text-align: center;
+}
+
+.mouvement {
+  animation-name: blougeote;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.mouvement2 {
+  animation-name: blougeote;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.4s;
+}
+
+.mouvement3 {
+  animation-name: blougeote;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1.5s;
+}
+
+.mouvement4 {
+  animation-name: blougeote;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+
+
+
+@media (max-width: 767px)  {
+
+  #menu-bar li{
+  	float: none;
+    text-align: center;}
+  #menu-bar {
+      height: 135px;
+    }
+
+    img { float: right;}
+
+    .monde {
+      height: 40em;
+      width: 100%;
+    }
+
+    #un{
+        float: auto;
+        clear: both;
+        padding-left: 19%;
+        width: 55%;
+        color: #fff;
+        text-align: left;
+    }
+
+    #deux{
+        float: left;
+        clear: left;
+        padding-left: 19%;
+        width: 55%;
+        color: #fff;
+    }
+
+
+    #trois{
+        float: right;
+        clear: left;
+        padding-right: 66%;
+        width: 55%;
+        color: #fff;
+
+    }
+
+    #quatre{
+        float: left;
+        clear: both;
+        padding-left: 19%;
+        width: 55%;
+        color: #fff;
+    }
+
+    #cinq{
+        float: left;
+        clear: both;
+        padding-left: 19%;
+        width: 55%;
+        color: #fff;
+    }
+
+
+    /* div monde */
+    #eurasie {
+        width: 55%;
+        padding-left: 23%;
+    }
+    #afrique {
+      width: 38%;
+      padding-left: 23%;
+    }
+
+    #australie {
+        padding-left: 54%;
+    }
+    #eurasie {
+        width: 55%;
+        padding-left: 23%;
+    }
+    #afrique {
+      width: 38%;
+      padding-left: 23%;
+    }
+
+    #australie {
+        padding-left: 54%;
+    }
+
+}
+
+
+@media (max-width: 505px){
+
+    .monde {
+      height: 27em;
+      width: 100%;
+    }
+
+
+}
+
+
+
+
+
+/* @keyframes */
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    transform-origin: 50% 100%;
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+    transform-origin: 50% 50%;
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes blougeote {
+  0% {
+    transform: translatey(0);
+  }
+  50% {
+    transform: translatey(10px);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}

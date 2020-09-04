@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="et_vous.css" />
+	<title >  </title >
+</head>
+
+<body>
+<img id="bg_img" src="images/etvousbg.jpg" alt="vue de Paris"/>
+<section id="page">
+	<header>
+		<ul id="menu-bar">
+			<li><a class="active" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+			<li><a href="#"><i class="fa fa-globe" aria-hidden="true"></i> Pays</a>
+		<ul>
+			<li><a href="france.html">France</a></li>
+			<li><a href="canada.html">Canada</a></li>
+			<li><a href="japon.html">Japon</a></li>
+		</ul>
+			</li>
+			<li><a href="#"><i class="fa fa-map-o" aria-hidden="true"></i> Continents</a>
+		<ul>
+			<li><a href="#">Europe</a></li>
+			<li><a href="#">Asie</a></li>
+			<li><a href="#">Afrique</a></li>
+			<li><a href="#">Amerique du Nord</a></li>
+			<li><a href="#">Amerique du Sud</a></li>
+			<li><a href="#">Australie</a></li>
+		</ul>
+			</li>
+			<li><a href="et_vous.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Et vous ?</a></li>
+		</ul>
+	</header>
+	
+	<nav>
+		<legend><strong>Informations sur vous :</strong></legend>
+			</br>
+		<input type="radio" name="genre" value="homme"/>
+		<label for="homme">Homme</label> 
+		<input type="radio" name="genre" value="femme"/> 
+		<label for="femme">Femme</label>
+			</br>
+		<input type="radio" name="genre" value="non-binaire"/> 
+		<label for="non-binaire">non binaire</label>
+			</br></br>
+		<label for="nom">Nom</label> : 
+		<input type="text" placeholder="Ex : Pablito"/>
+			</br></br>
+		<label for="prenom">Prénom</label> :
+		<input type="text" size="17" placeholder="Ex : Paul"/>
+			</br></br>
+		<label for="mail">mail</label> :
+		<input type="text" placeholder="PaulPablito@gmail.com"/>
+			</br></br>
+		<label for="age">age</label> :
+		<input type="text" size="3" maxlength="2" placeholder="18"/>
+			</br></br>
+		<input type="checkbox" value="validité" /><i>j'accepte de recevoir des offres promotionnelles.</i> 
+			</br>
+		<input type="checkbox" value="validité" /><i>je souhaite soumettre mes avis de façon anonyme.</i>
+	</nav>
+	
+	<main>
+		<label>comment avez vous trouvé le site</label> :
+		<select name="visite []"> 
+			<option value="google" selected="selected">recherche google</option> 
+			<option value="amis">amis</option>
+			<option value="conseil">conseil</option>
+			<option value="tp">pour un tp</option>
+		</select>
+			</br></br>
+		<label>note de l'aspect visuel</label> :
+		<input type="radio" name="noteav" value="1/5" />1* 
+		<input type="radio" name="noteav" value="2/5" />2*
+		<input type="radio" name="noteav" value="3/5" />3* 
+		<input type="radio" name="noteav" value="4/5" />4*
+		<input type="radio" name="noteav" value="5/5" />5*
+		</br></br>
+		<label>note pour le contenu</label> :
+		<input type="radio" name="notec" value="1/5" />1* 
+		<input type="radio" name="notec" value="2/5" />2*
+		<input type="radio" name="notec" value="3/5" />3* 
+		<input type="radio" name="notec" value="4/5" />4*
+		<input type="radio" name="notec" value="5/5" />5*
+		</br></br>
+		<label>note pour la facile d'accès</label> :
+		<input type="radio" name="notefa" value="1/5" />1* 
+		<input type="radio" name="notefa" value="2/5" />2*
+		<input type="radio" name="notefa" value="3/5" />3* 
+		<input type="radio" name="notefa" value="4/5" />4*
+		<input type="radio" name="notefa" value="5/5" />5*
+		</br></br>
+		<label>note pour l'originalité</label> :
+		<input type="radio" name="noteo" value="1/5" />1* 
+		<input type="radio" name="noteo" value="2/5" />2*
+		<input type="radio" name="noteo" value="3/5" />3* 
+		<input type="radio" name="noteo" value="4/5" />4*
+		<input type="radio" name="noteo" value="5/5" />5*
+		</br></br>
+		<label>note global</label> :
+		<input type="radio" name="noteg" value="1/5" />1* 
+		<input type="radio" name="noteg" value="2/5" />2*
+		<input type="radio" name="noteg" value="3/5" />3* 
+		<input type="radio" name="noteg" value="4/5" />4*
+		<input type="radio" name="noteg" value="5/5" />5*
+		</br></br>
+		
+	</main>
+	
+	<aside>
+		<label for="description">Description			</label> : <br />
+		<textarea rows="14" cols="21" name="description"></textarea>
+	</aside>
+		
+	<footer>
+		
+		<input type="reset" name="init" id="init" value="Réinitialiser " />
+		<input type="submit" name="soumission" id="soumission" value="Envoyer"/>
+		</br></br>
+		<p>Merci de votre visite sur le site en espérant que cela vous à été utile.</p>
+		</br>
+		<p class="src"><i>source : tkt frere</i></p>
+	</footer>
+	
+</section>
+
+</body>
+
+</html>

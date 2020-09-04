@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+/* Créer quatre colonnes égalent qui floetten côte à côte */
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+/* non soumi aux flottements précédents, après les colonnes */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media (max-width: 992px) {
+
+  .column {
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .column {
+    width: 100%;
+  }
+}

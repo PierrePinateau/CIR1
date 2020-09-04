@@ -1,0 +1,27 @@
+.flottantdroite, .flottantgauche{
+
+  width: 5.7%;
+  text-align: center;
+  position: relative;
+  margin: 2px;
+
+
+}
+
+.flottantgauche{
+  background-color: yellow;
+  float: left;
+
+}
+
+.flottantdroite{
+  background-color: blue;
+  float: right;
+
+}
+
+.plusflottant{
+  position: fixed;
+  top: 3%;
+
+}

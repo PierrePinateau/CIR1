@@ -1,0 +1,37 @@
+#boitebleue{
+  background-color: #ADDFDE;
+  position: absolute;
+  top: 0%;
+  right: 30%;
+  height: 96%;
+}
+
+#boitejaune {
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  left: 72%;
+  width: 25%;
+  height: 30%;
+
+}
+
+#boiteverte {
+  background-color: #A5DF39;
+  position: absolute;
+  top: 33%;
+  left: 72%;
+  width: 25%;
+  height: 30%;
+
+}
+
+#boiterose
+{
+  background-color: pink;
+  position: absolute;
+  top: 66%;
+  left: 72%;
+  width: 25%;
+  height: 30%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8"/>
+	<title> Habillage d'un tableau</title>
+	<link rel="stylesheet" href ="habillageTableau.css"/>
+</head>
+<body>
+
+	<table>
+	<caption> Présentation de quelques cours données dans l'institut PROFX</caption>
+
+	<thead>
+		<tr>
+			 <th></th>
+			 <th id="blb">Niveau 1</th>
+			 <th id="blb">Niveau 2</th>
+			 <th id="blb">Niveau 3</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			 <th rowspan="2">Daniel Martin</th>
+			 <td colspan="2">Un cours X1 pour étudiant de niveau 1 et 2</td>
+			 <td></td>
+		</tr>
+
+		<tr>
+			 <td colspan="3">Un cours X2 destiné à des étudiants de tout niveau</td>
+		</tr>
+
+		<tr>
+			 <th rowspan="2">Alan Turing</th>
+			 <td>Un cours X3 de niveau 1 </td>
+			 <td></td>
+			 <td></td>
+		</tr>
+		<tr>
+			 <td></td>
+			 <td colspan="2">Un cours X4 de niveau 2 et 3</td>
+		</tr>
+	</tbody>
+
+	<tfoot>
+		<tr>
+			 <th></th>
+			 <th>Niveau 1</th>
+			 <th>Niveau 2</th>
+			 <th>Niveau 3</th>
+		</tr>
+	</tfoot>
+</table>
+
+
+</body>
+</html>

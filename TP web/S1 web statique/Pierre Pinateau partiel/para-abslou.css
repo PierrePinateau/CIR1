@@ -1,0 +1,44 @@
+p {
+  position: absolute;
+  border: solid 1px grey;
+  background-color: silver;
+  text-align: center;
+  width: 15px;
+}
+
+#u {
+
+}
+#d {
+left: 20px;
+}
+#t {
+left: 36px;
+
+}
+#q {
+top: 26px;
+}
+
+#c {
+top: 26px;
+left: 20px;
+
+}
+#s {
+top: 26px;
+left: 36px;
+
+}
+#se {
+top: 44px;
+}
+#h {
+top: 44px;
+left: 20px;
+
+}
+#n {
+  top: 44px;
+  left: 36px;
+}
