@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (TPC 6.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  exo1.c
+  TPC 6.vcxproj -> D:\doc\algo\TP C\TP 6\TPC 6\Debug\exo 1.exe
+  TPC 6.vcxproj -> D:\doc\algo\TP C\TP 6\TPC 6\Debug\exo 1.pdb (Full PDB)
