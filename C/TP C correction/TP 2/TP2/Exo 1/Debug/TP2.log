@@ -1,0 +1,8 @@
+﻿  boucle.c
+d:\doc\algo\tp c\tp 2\tp2\tp2\boucle.c(66): warning C4013: 'system' non défini(e) ; extern retournant int pris par défaut
+d:\doc\algo\tp c\tp 2\tp2\tp2\boucle.c(53): warning C4477: 'scanf_s' : la chaîne de format '%hu' nécessite un argument de type 'unsigned short *', mais l'argument variadique 1 est de type 'int *'
+  d:\doc\algo\tp c\tp 2\tp2\tp2\boucle.c(53): note: utilisez '%u' dans la chaîne de format
+  d:\doc\algo\tp c\tp 2\tp2\tp2\boucle.c(53): note: utilisez '%Iu' dans la chaîne de format
+  d:\doc\algo\tp c\tp 2\tp2\tp2\boucle.c(53): note: utilisez '%I32u' dans la chaîne de format
+  TP2.vcxproj -> D:\doc\algo\TP C\TP 2\TP2\Debug\Exo 1.exe
+  TP2.vcxproj -> D:\doc\algo\TP C\TP 2\TP2\Debug\Exo 1.pdb (Full PDB)

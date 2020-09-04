@@ -1,0 +1,4 @@
+﻿  main.c
+d:\doc\algo\tp c\tp 2\tp2\exo 2\main.c(22): warning C4047: '<' : les niveaux d'indirection de 'float [3]' et de 'int' sont différents
+  Exo 2.vcxproj -> D:\doc\algo\TP C\TP 2\TP2\Debug\Exo 2.exe
+  Exo 2.vcxproj -> D:\doc\algo\TP C\TP 2\TP2\Debug\Exo 2.pdb (Full PDB)

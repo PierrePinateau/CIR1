@@ -1,0 +1,4 @@
+﻿  main.c
+d:\doc\algo\tp c\tp 2\tp2\exo 3\main.c(50): warning C4013: 'system' non défini(e) ; extern retournant int pris par défaut
+  Exo 3.vcxproj -> D:\doc\algo\TP C\TP 2\TP2\Debug\Exo 3.exe
+  Exo 3.vcxproj -> D:\doc\algo\TP C\TP 2\TP2\Debug\Exo 3.pdb (Full PDB)

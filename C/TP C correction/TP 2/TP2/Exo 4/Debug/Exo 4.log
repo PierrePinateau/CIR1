@@ -1,0 +1,6 @@
+﻿  main.c
+d:\doc\algo\tp c\tp 2\tp2\exo 4\main.c(7): warning C4013: 'srand' non défini(e) ; extern retournant int pris par défaut
+d:\doc\algo\tp c\tp 2\tp2\exo 4\main.c(8): warning C4013: 'rand' non défini(e) ; extern retournant int pris par défaut
+d:\doc\algo\tp c\tp 2\tp2\exo 4\main.c(40): warning C4013: 'system' non défini(e) ; extern retournant int pris par défaut
+  Exo 4.vcxproj -> D:\doc\algo\TP C\TP 2\TP2\Debug\Exo 4.exe
+  Exo 4.vcxproj -> D:\doc\algo\TP C\TP 2\TP2\Debug\Exo 4.pdb (Full PDB)
