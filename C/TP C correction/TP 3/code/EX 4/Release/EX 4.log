@@ -1,0 +1,9 @@
+﻿  exo4.c
+exo4.c(10): warning C4101: 'masque' : variable locale non référencée
+  fonctionEx4.c
+fonctionEx4.c(71): warning C4018: '<' : incompatibilité signed/unsigned
+  Génération de code en cours
+  All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  EX 4.vcxproj -> D:\doc\algo\TP C\TP 3\code\Release\EX 4.exe
+  EX 4.vcxproj -> D:\doc\algo\TP C\TP 3\code\Release\EX 4.pdb (Full PDB)
